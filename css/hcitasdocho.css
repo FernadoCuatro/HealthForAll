@@ -1,0 +1,315 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+box-sizing: border-box;
+}
+
+body{
+font-family: Doppio;
+}
+
+header{
+width: 100%;
+height: 60px;
+background: #1D172E;
+text-align: center;
+position: fixed;
+top: 0;
+overflow: hidden;
+font-family: cursive;
+transition: all 0.5s ease;
+}
+
+header nav{
+position: absolute;
+bottom: 0;
+height: 60px;
+line-height: 60px;
+font-family: doppio one;
+width: 100%;
+background: #1D172E;
+border-bottom: 8px solid  #FF0087;
+}
+
+header nav a{
+color: white;
+display: inline-block;
+padding: 10px 15px;
+line-height: 1;
+text-decoration: none;
+border-radius: 5px;
+font-family: doppio one;
+display: inline;
+}
+
+header nav a:hover{
+background: #FF0087;
+}
+
+.inicio{
+color: white;
+display: inline-block;
+padding: 10px 15px;
+line-height: ;
+text-decoration: none;
+border-radius: 5px;
+font-family: doppio one;
+display: inline;
+margin-left: 150px;
+}
+
+.inicio:hover{
+background: #FF0087;
+
+}
+
+.archivo{
+color: #ecf0f1;
+font-family:doppio one;
+}
+
+.archivo a{
+color: #ecf0f1;
+}
+
+h2{
+font-size: 30px;
+color: #ecf0f1;
+font-family: doppio one;
+}
+
+.l1{
+color: #ecf0f1;
+font-family: doppio one;
+}
+span{
+color: #FF0087;
+font-family: doppio one;
+}
+
+select{
+padding: 10px;
+color:#2E2B37;
+font-family: doppio one;
+}
+
+input[type="date"]{
+padding: 10px;
+text-align: right;
+font-family: doppio one;
+}
+
+input[type="submit"]{
+padding: 10px;
+text-align: right;
+font-family: doppio one;
+background: #FF4C85;
+color: white;
+border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start body rules */
+body {
+/*background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);*/
+background: #ecf0f1;
+background-attachment: fixed;
+background-repeat: no-repeat;
+opacity: .95;
+/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+.volver{
+color: white;
+padding: 10px 15px;
+text-decoration: none;
+border-radius: 5px;
+font-family: doppio one;
+background: #FF4C85;
+margin-top: 11%;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||*/
+/* //////////////////////////////////////////// */
+
+.letra{
+color: #FF0866;
+}
+
+
+/* End body rules */
+
+/* Start form  attributes */
+form {
+font-family: doppio one;
+width: 450px;
+min-height: 500px;
+height: auto; 
+border-radius: 5px;
+margin: 7% auto;
+box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+padding: 2%;
+background-image: linear-gradient(-225deg, #1D172E 50%, #B4B0B0 50%);
+}
+/* form Container */
+form .con {
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: space-around;
+justify-content: space-around;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.input-item {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+/* Show/hide password Font Icon */
+#eye {
+    background: #fff;
+    color: #333;
+  
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+  
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    
+    cursor: pointer;
+}
+/* inputs form  */
+input[class="form-input"]{
+    width: 300px;
+    height: 50px;
+  	margin-top: 2%;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    color:#2E2B37;
+  	outline: none;
+    border: none;
+    font-family: doppio one;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+    
+}
+input[id="txt-input"] {width: 250px;}
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+    font-family: doppio one;
+}
+button {
+    display: inline-block;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  font-family: doppio one;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+/* Submits */
+.submits {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+/*       Forgot Password button FAF3DD  */
+.frgt-pass {background: transparent;}
+
+/*     Sign Up button  */
+.sign-up {background: #FF4C85; text-decoration: none;}
+.sign-up a{ text-decoration: none; color:white;  }
+
+/* buttons hover */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+form {
+margin: 35% auto;  
+}
+
+header{
+height: 130px;
+position: fixed;
+}
+
+header nav{
+padding: 5px;
+height: 130px;
+display: block;
+}
+
+header nav a{
+display: block;
+margin-top: 1px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+form {
+margin: 45% auto;  
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+form {
+margin: 55% auto;  
+}
+}
+
+@media only screen and (max-width: 300px) {
+form {
+margin: 80% auto;  
+}
+}

@@ -1,0 +1,721 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 100%;
+background: #ecf0f1;
+padding-top: 300px;
+transition: padding-top 0.5s ease;
+}
+
+header{
+width: 100%;
+height: 270px;
+background: #292c2f;
+text-align: center;
+position: fixed;
+top: 0;
+overflow: hidden;
+transition: all 0.5s ease;
+}
+
+.logo{
+width:600px;
+height: 90px;
+}
+
+header h1{
+font-size: 30px;
+color: white;
+line-height: 50px;
+font-weight: 100px;
+transition: all 0.3s ease;
+font-family: doppio one;
+}
+
+header h1 i{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+header nav{
+position: absolute;
+bottom: 0;
+height: 60px;
+line-height: 60px;
+width: 100%;
+background: #1D172E;
+border-bottom: 8px solid  #FF0087;
+}
+
+header nav a{
+color: white;
+display: inline-block;
+padding: 10px 15px;
+line-height: 1;
+text-decoration: none;
+border-radius: 5px;
+font-family: doppio one;
+display: inline;
+}
+
+header nav a:hover{
+background: #FF0087;
+}
+
+h2{
+font-size: 10px;
+text-transform: uppercase;
+font-kerning: 400;
+line-height: 2;
+color: #2c3e50;
+}
+
+.buttom{
+width: 90%;
+height: 400px;
+margin-top: 60px;
+}
+
+.opbut{
+float: left;
+margin-top: 20px;
+width: 33%;
+padding: 10px;
+color: #2E2B37;
+font-family: doppio one;
+}
+
+.bot-oculto{
+text-decoration: none;
+background: #1D172E;
+padding: 10px;
+margin-top: 10px;
+border-radius: 5px;
+color: white;
+width: 80%;
+display: block;
+}
+
+.bot-oculto:hover{
+background: #FF0087;
+}
+
+.error{
+margin-top: 15px;
+}
+
+.archi{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+}
+
+.input-admin{
+text-align: center;
+padding: 10px;
+margin-top: 15px;
+width: 85%;
+border-radius: 10px;
+}
+
+.archivo{
+color: #FF0087;
+font-size: 25px;
+font-family:doppio one;
+}
+
+button{
+text-decoration: none;
+background: #1D172E;
+padding: 10px;
+border-radius: 5px;
+color: white;
+margin-left: 20px;
+margin-top: 15px;
+font-family: doppio one;
+}
+
+button:hover{
+background: #FF0087;
+}
+
+.reserva{
+width: 900px;
+text-align: center;
+font-size: 15px;
+font-family: doppio one;
+color: #2E2B37;
+margin-top: 50px;
+display: inline;
+}
+
+.reserva h3{
+margin-bottom:40px;
+text-align: center;
+font-size: 20px;
+}
+
+.bot-cita{
+text-decoration: none;
+background: #1D172E;
+padding: 10px;
+border-radius: 5px;
+color: white;
+}
+
+.bot-cita:hover{
+background: #FF0087;
+padding: 15px; 
+}
+
+
+body.sticky-header{
+padding-top: 100px;
+}
+
+body.sticky-header header{
+height: 60px;
+background: #e88300;
+}
+
+body.sticky-header header h1{
+transform: scale(0, 0);
+}
+
+.conter-todo{
+width: 100%;
+margin-top: 250px;
+height: 950px;
+background: #DFDFDF;
+}
+
+.cajas{
+width: 80%;
+padding: 20px;
+}
+
+.cajas h1{
+text-align: justify;
+font-size: 60px;
+font-family: doppio one;
+color: #FF0087;
+}
+
+.cajas h3{
+font-size:15px;
+text-align: justify;
+font-family: doppio one;
+}
+
+.especialidades{
+width: 80%;
+margin: 5% auto;
+text-align: center;
+}
+
+.filas-espe img{
+width: 200px;
+margin-bottom: 20px;
+height: 100px;
+border-radius: 20px;
+}
+
+.filas-espe{
+display: inline-table;
+width: 30%;
+margin-top:2%;
+padding: 10px;
+}
+
+.name{
+font-size: 25px;
+color: #FF0087;
+font-family: doppio one;
+}
+
+.mini-name{
+font-size: 15px;
+font-family: doppio one;
+font-weight: 800;
+}
+
+
+
+
+@media only screen and (max-width: 920px)  
+{
+header{
+width: 100%;
+height: 240px;
+background: #292c2f;
+text-align: center;
+position: fixed;
+top: 0;
+overflow: hidden;
+transition: all 0.5s ease;
+}
+
+.logo{
+width:400px;
+height: 70px;
+}
+
+header h1{
+font-size: 25px;
+color: white;
+line-height: 40px;
+font-weight: 90px;
+transition: all 0.3s ease;
+font-family: 'Doppio One';
+}
+
+
+header nav{
+position: absolute;
+bottom: 0;
+height: 60px;
+line-height: 60px;
+width: 100%;
+background: #1D172E;
+border-bottom: 6px solid  #FF0087;
+}
+
+header nav a{
+color: white;
+display: inline-block;
+padding: 10px 15px;
+line-height: 1;
+text-decoration: none;
+border-radius: 5px;
+font-family: 'Doppio One';
+display: inline;
+}
+
+.opbut{
+float: left;
+margin-top: 50px;
+width: 33%;
+justify-content: space-around;
+padding: 10px;
+color: #2E2B37;
+font-family: doppio one;
+}
+
+.bot-oculto{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+margin-bottom: 7px;
+margin-left: 0;
+display: block;
+margin-top: 15px;
+
+}
+
+.error{
+margin-top: 15px;
+}
+
+.archi{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+margin-top: 5px;
+font-size: 15px;
+}
+
+
+.input-admin{
+text-align: center;
+padding: 10px;
+margin-top: 15px;
+width: 85%;
+font-size: 15px;
+border-radius: 10px;
+}
+
+.archivo{
+color: #FF0087;
+font-size: 20px;
+font-family:doppio one;
+}
+
+button{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+margin-left: 0;
+margin-top: 15px;
+display: block;
+font-family: doppio one;
+}
+
+button:hover{
+background: #FF0087;
+}
+
+.reserva{
+width: 900px;
+text-align: center;
+font-size: 15px;
+font-family: doppio one;
+color: #2E2B37;
+margin-top: auto;
+display: inline;
+}
+
+.reserva h3{
+margin-bottom:40px;
+text-align: center;
+font-size: 15px;
+}
+
+.reserva h1{
+font-size: 25px;
+}
+
+.bot-cita{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+width: 85%;
+margin-left: 0;
+display: block;
+font-size: 15px;
+}
+
+.bot-cita:hover{
+background: #FF0087;
+padding: 7px; 
+}
+
+.conter-todo{
+height: 1400px;
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 820px)  
+{
+
+.opbut{
+float: left;
+margin-top: 50px;
+width: 33%;
+justify-content: space-around;
+padding: 10px;
+color: #2E2B37;
+font-family: doppio one;
+}
+
+.bot-oculto{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+margin-bottom: 7px;
+margin-left: 0;
+display: block;
+
+}
+
+.error{
+margin-top: 15px;
+font-size: 15px;
+}
+
+
+.conter-todo{
+.filas-espe img{
+width: 150px;
+margin-bottom: 20px;
+height: 100px;
+}
+
+.filas-espe1 img{
+width: 150px;
+border
+margin-bottom: 20px;
+height: 100px;
+}
+
+.name{
+font-size: 20px;
+}
+
+.mini-name{
+font-size: 12px;
+font-weight: 0px;
+}
+
+.conter-todo{
+height: 1500px;
+}
+
+
+}
+
+@media only screen and (max-width: 720px)  
+{
+header{
+height: 210px;
+}
+
+body.sticky-header{
+padding-top: 150px;
+}
+
+body.sticky-header header{
+height: 50px;
+}
+
+.logo{
+width:300px;
+height: 60px;
+}
+
+header h1{
+font-size: 20px;
+line-height: 44px;
+}
+
+header nav{
+height: 50px;
+line-height: 50px;
+font-size: 13px;
+}
+
+header nav a{
+padding: 5px 10px;
+line-height: 1;
+}
+
+body{
+padding-top: 230px;
+}
+
+.opbut{
+float:left;
+margin-top: 50px;
+width: 33%;
+justify-content: space-around;
+padding: 10px;
+color: #2E2B37;
+padding-left: 30px;
+font-family: doppio one;
+font-size: 15px;
+}
+
+
+.bot-oculto{
+font-size: 10px;
+}
+
+.error{
+margin-top: 10px;
+font-size: 13px;
+}
+
+.archi{
+font-size: 10px;
+}
+
+.input-admin{
+padding: 5px;
+margin-top: 15px;
+font-size: 10px;
+}
+
+.archivo{
+color: #FF0087;
+font-size: 20px;
+font-family:doppio one;
+}
+
+button{
+text-decoration: none;
+background: #1D172E;
+padding: 5px;
+border-radius: 5px;
+color: white;
+font-size: 10px;
+margin-left: 0;
+margin-top: 15px;
+display: block;
+font-family: doppio one;
+}
+
+button:hover{
+background: #FF0087;
+}
+
+.reserva{
+width: 900px;
+text-align: center;
+font-size: 15px;
+font-family: doppio one;
+color: #2E2B37;
+margin-top: auto;
+display: inline;
+}
+
+.reserva h3{
+margin-bottom:40px;
+text-align: center;
+font-size: 15px;
+}
+
+.reserva h1{
+font-size: 25px;
+}
+
+.bot-cita{
+font-size: 10px;
+}
+
+.conter-todo{
+height: 2100px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.buttom{
+height: 900px;
+}
+
+.cajas h1{
+font-size: 45px;
+}
+
+header{
+height: 230px;
+}
+
+body.sticky-header{
+padding-top: 150px;
+}
+
+body.sticky-header header{
+height: 90px;
+}
+
+header nav{
+padding: 5px;
+height: 90px;
+line-height: 50px;
+font-size: 13px;
+display: block;
+}
+
+header nav a{
+display: block;
+}
+
+
+.opbut{
+float:none;
+margin: 0;
+width: 100%;
+padding: 10px;
+}
+
+
+.bot-oculto{
+font-size: 15px;
+padding: 15px;
+padding-top: 0;
+padding-bottom: 5px;
+}
+
+.bot-cita:hover{
+padding: 15px;
+}
+
+.error{
+margin-top: 10px;
+font-size: 13px;
+}
+
+.archi{
+font-size: 10px;
+padding: 15px;
+}
+
+.input-admin{
+padding: 15px;
+margin-top: 15px;
+font-size: 15px;
+}
+
+.bot-cita{
+font-size: 15px;
+padding: 15px;
+margin-bottom: 0;
+}
+
+
+.archivo{
+color: #FF0087;
+font-size: 20px;
+font-family:doppio one;
+}
+
+button{
+padding: 15px;
+border-radius: 5px;
+font-size: 15px;
+}
+
+button:hover{
+background: #FF0087;
+}
+.bot-cita{
+font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 400px){
+.buttom{
+height: 1000px;
+}
+
+}
+
+
+@media only screen and (max-width: 300px){
+
+.buttom{
+height: 1100px;
+}
+
+}
